@@ -1,0 +1,3 @@
+= AngularCourseProject
+
+This is the "Course Project" created in the Udemy workshop https://www.udemy.com/the-complete-guide-to-angular-2[The complete guide to Angular]. My notes and code snippets from this workshop are published https://github.com/stevenschwenke/AngularWorkshop[here].
