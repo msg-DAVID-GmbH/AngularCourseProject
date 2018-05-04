@@ -8,7 +8,4 @@ export class HeaderComponent {
 
   @Output() featureSelected = new EventEmitter<{ feature: string }>();
 
-  onSelect(feature: string) {
-    this.featureSelected.emit({feature: feature});
-  }
 }
