@@ -19,4 +19,8 @@ export class RecipeService {
     // defensive copy through slice() because without it, a real reference to the array would be returned
     return this.recipes.slice();
   }
+
+  getRecipe(index: number) {
+    return this.recipes.slice()[index];
+  }
 }
