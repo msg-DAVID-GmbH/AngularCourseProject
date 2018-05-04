@@ -7,10 +7,4 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
 
-  feature = 'recipe';
-
-  onNavigate(event: { feature: string }) {
-    this.feature = event.feature;
-  }
-
 }
