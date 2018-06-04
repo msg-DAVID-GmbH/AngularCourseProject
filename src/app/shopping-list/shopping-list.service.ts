@@ -28,4 +28,9 @@ export class ShoppingListService {
     this.ingredients.push(...newIngredients); // "spread-operator" of ES6
     this.ingredientsChanged.next(this.ingredients.slice());
   }
+
+  updateIngredient(index: number, newIngredient: Ingredient) {
+    this.ingredients[index] = newIngredient;
+    this.ingredientsChanged.next(this.ingredients.slice());
+  }
 }
